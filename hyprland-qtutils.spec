@@ -17,7 +17,7 @@ BuildRequires:	qt6-qtbase-tools
 BuildRequires:	pkgconfig(hyprutils)
 BuildRequires:	wayland-devel
 
-Requires: hyprland-qt-support%{?_isa}
+Requires: pkgconfig(hyprland-qt-support)
 
 BuildSystem: cmake
 BuildOption: -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr
