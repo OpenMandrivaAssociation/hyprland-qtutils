@@ -29,14 +29,10 @@ BuildOption: -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr
 %description
 %{summary}
 
-%check
-desktop-file-validate %{buildroot}%{_datadir}/applications/*.desktop
-
 %files
 %license LICENSE
 %doc README.md
 %{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
 
 %description
 %{summary}
