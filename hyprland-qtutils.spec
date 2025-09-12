@@ -6,6 +6,7 @@ Group:		System/Libraries
 License:	BSD-3-Clause
 URL:		https://github.com/hyprwm/hyprland-qtutils
 Source0:	%{url}/archive/v%{version}/%{name}-%{version}.tar.gz
+# Merge Request submitted upstream to fix issue
 Patch0:		WaylandClientPrivate.patch
 
 BuildRequires:hyprsysteminfo
