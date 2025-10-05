@@ -25,6 +25,7 @@ BuildRequires: pkgconfig(Qt6LabsSynchronizer)
 BuildRequires: pkgconfig(Qt6QmlCore)
 BuildRequires: qt6-qtbase-theme-gtk3
 BuildRequires: pkgconfig(Qt6WaylandClient)
+BuildRequires: vulkan-headers
 
 Requires: util-linux %dnl for /usr/bin/lscpu
 Requires: pciutils %dnl for /usr/bin/lspci
