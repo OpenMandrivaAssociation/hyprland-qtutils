@@ -20,7 +20,6 @@ BuildRequires: pkgconfig(xkbcommon)
 BuildRequires: pkgconfig(wayland-client)
 BuildRequires: pkgconfig(hyprutils)
 BuildRequires: pkgconfig(Qt6QmlNetwork)
-BuildRequires: cmake(Qt6QmlAssetDownloader)
 BuildRequires: pkgconfig(Qt6LabsSynchronizer)
 BuildRequires: pkgconfig(Qt6QmlCore)
 BuildRequires: qt6-qtbase-theme-gtk3
